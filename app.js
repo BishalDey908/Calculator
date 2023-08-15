@@ -7,24 +7,7 @@ let dot = document.querySelector("#dot").name //select button .
 let plus = document.querySelector("#plus").name //select button +
 let minus = document.querySelector("#minus").name //select button -
 let multiply = document.querySelector("#multiply").name //select button *
-let devide = document.querySelector("#devide").name //select button /
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+let devide = document.querySelector("#devide").name //select button /
 
 // -------------------take numbers---------------
 function displayInput1() {  //for 1
