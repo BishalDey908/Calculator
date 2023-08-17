@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.calculator {
+    border-radius: 10px;
+    background-color: #283E51;
+    padding-top: 15px;
+    padding-left: 12px;
+
+    margin-top: 5%;
+    margin-left: 40%;
+    width: 24.5vw;
+    height: 80vh;
+    justify-content: center;
+}
+
+.name {
+    color: white;
+    font-family: 'Orbitron', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin-top: -10px;
+    margin-bottom: 5px;
+}
+
+.head2 {
+    padding-right: 18px;
+}
+
+.head1 {
+    padding-left: 5px;
+}
+
+.display {
+    font-size: 30px;
+    padding-bottom: 10px;
+}
+
+.displayInput {
+    font-family: 'Orbitron', sans-serif;
+    padding-right: 10px;
+    padding-left: 10px;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    text-align: end;
+    font-size: 45px;
+    height: 10vh;
+    width: 23vw;
+    background-color: black;
+    margin-bottom: 10px;
+}
+
+button {
+    font-family: 'Orbitron', sans-serif;
+    cursor: pointer;
+    color: white;
+    box-shadow: -8px -8px 18px rgba(255, 255, 255, 0.1), 15px 5px 8px rgba(0, 0, 0, 0.2);
+    background-color: transparent;
+    border-radius: 10px;
+    border: 0;
+    margin-right: 20%;
+    margin-bottom: 20%;
+    height: 80px;
+    width: 80px;
+}
+
+.firstrow {
+    text-align: center;
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px
+}
+
+.secondrow {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px
+}
+
+.thirdrow {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px
+}
+
+.fourthrow {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px
+}
+
+.fifthrow {
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px
+}
+
+button {
+    font-size: 20px;
+}
+
+#plus,
+#minus,
+#devide,
+#equalTo,
+#multiply,
+#zero,
+#dzero,
+#dot,
+#ac,
+#del,
+#dark {
+    color: aqua;
+}
+
+#multiply {
+    color: aqua;
+}
+
+
+
+@media  ( max-width:450px) and (min-width:390px) {
+    html{
+        font-size: 70%;
+    }
+    .calculator{
+        margin: 20% 2%;
+        width: 35rem;
+        height: 20%;
+    }
+    .displayInput{
+        width: 33rem;
+    }
+    button{
+        height: 6rem;
+        width: 6rem;
+    }
+    .firstrow{
+        margin-left: -0.5rem;
+    }
+    
+}
+
+@media(max-height :380px) and (min-width:360){
+    .calculator{
+        margin: 15% 1%;
+    }
+    button{
+        height: 3rem;
+        width: 3rem;
+    }
+    .firstrow{
+        margin-left: -22%;
+    }
+    
+}
+
+@media( max-width:390px ) and  (min-width:380px){
+    
+}
+
+@media(max-width:360px) and (min-width:300px){
+    /* html{
+        font-size: 10%;
+    } */
+    .calculator{
+        margin: 30% 6%;
+        width: 20rem;
+        height: 25%;
+        
+    }
+    button{
+        height: 3rem;
+        width: 3rem;
+        font-size: 1rem;
+    }
+    .displayInput{
+        width: 18.5rem;
+    }
+    .firstrow{
+        margin-left: -0.5%;
+        grid-template-columns: 25% 24% 24% 26%;
+    }
+    .secondrow{
+        margin-left: 2%;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+    .thirdrow{
+        margin-left: 2%;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+    .fourthrow{
+        margin-left: 2%;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+    .fifthrow{
+        margin-left: 2%;
+        grid-template-columns: 25% 25% 25% 25%;
+    }
+}
