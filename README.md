@@ -1,0 +1,1 @@
+This is a SIMPLE CALCULATER.It is my 2nd internship project.It is mainly build by HTML,CSS anmd JavaScript.It's mainly work to so +,-,*,/.It also have two buttons DEL,AC to delete an input or output.It also have dark mode and light mode.
